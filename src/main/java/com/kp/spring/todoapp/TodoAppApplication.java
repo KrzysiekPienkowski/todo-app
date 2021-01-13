@@ -18,6 +18,8 @@ public class TodoAppApplication implements RepositoryRestConfigurer {
 	int aaa;
 
 int xxx;
+	int aaa;
+
 	@Bean
 	Validator validator() {
 		return new LocalValidatorFactoryBean();
