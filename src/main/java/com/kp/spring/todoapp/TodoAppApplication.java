@@ -15,7 +15,7 @@ public class TodoAppApplication implements RepositoryRestConfigurer {
 	public static void main(String[] args) {
 		SpringApplication.run(TodoAppApplication.class, args);
 	}
-
+int xxx;
 	@Bean
 	Validator validator() {
 		return new LocalValidatorFactoryBean();
