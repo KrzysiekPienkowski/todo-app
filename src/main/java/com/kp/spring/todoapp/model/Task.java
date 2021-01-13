@@ -14,4 +14,5 @@ public class Task {
     private int id;
     private String description;
     private boolean done;
+    private int branch;
 }
