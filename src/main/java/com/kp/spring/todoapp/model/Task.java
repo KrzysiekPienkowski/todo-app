@@ -16,6 +16,7 @@ public class Task {
     private boolean done;
     private int branch;
     private boolean main;
+    int branch_2;
 
     Task(){}
 
