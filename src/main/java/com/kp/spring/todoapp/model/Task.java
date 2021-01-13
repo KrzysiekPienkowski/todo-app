@@ -16,6 +16,8 @@ public class Task {
     @NotBlank
     private String description;
     private boolean done;
+    private boolean main_new;
+    private int main_main;
     private boolean main;
     private int branch;
 
@@ -44,5 +46,4 @@ public class Task {
     public void setDone(boolean done) {
         this.done = done;
     }
-
 }
