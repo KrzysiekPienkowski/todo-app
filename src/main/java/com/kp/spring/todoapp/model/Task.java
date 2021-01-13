@@ -13,7 +13,6 @@ public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @NotBlank
     private String description;
     private boolean done;
     private int branch;
