@@ -13,6 +13,7 @@ public class Task {
     @NotBlank
     private String description;
     private boolean done;
+    private int branch;
     private boolean main_new;
     private int main_main;
 
